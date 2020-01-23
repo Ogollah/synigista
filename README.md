@@ -1,2 +1,2 @@
 # yolomy
-A clothing line website
+Synigista Group
