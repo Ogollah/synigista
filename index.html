@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>synigista</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <!-- Lightbox-->
+    <link rel="stylesheet" href="./vendor/lightbox2/css/lightbox.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png">
+  </head>
+  <body>
+    <!-- Hero Section-->
+    <section id="intro" style="background: url(img/startup-room.jpg)" class="hero bg-cover">
+      <div class="overlay"></div>
+      <div class="content h-100 d-flex align-items-center">
+        <div class="container text-center text-white">
+          <p class="headings-font-family text-uppercase lead">Welcome!</p>
+          <h1 class="text-uppercase hero-text text-white">We are<span class="font-weight-bold d-block">Synygista</span></h1>
+          <p class="headings-font-family text-uppercase lead">And this is where we make it happen </p>
+        </div>
+      </div><a href="#about" class="scroll-btn link-scroll"><img src="./img/mouse_click.png"></a>
+    </section>
+    <!-- Navbar-->
+    <!-- navbar-->
+    <header class="header sticky-top">
+      <nav class="navbar navbar-expand-lg bg-white border-bottom py-0">
+        <div class="container"><a href="#" class="navbar-brand py-1"><img src="img/logo.png" alt="" class="img-fluid"></a>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fas fa-bars"></span></button>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto px-3">
+              <li class="nav-item active"><a href="#intro" class="nav-link text-uppercase link-scroll">Home </a></li>
+              <li class="nav-item"><a href="#about" class="nav-link text-uppercase link-scroll">About</a></li>
+              <li class="nav-item"><a href="#services" class="nav-link text-uppercase link-scroll">Services</a></li>
+              <li class="nav-item"><a href="#testimonial" class="nav-link text-uppercase link-scroll">Testimonial</a></li>
+              <li class="nav-item"><a href="#team" class="nav-link text-uppercase link-scroll">Team</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link text-uppercase link-scroll">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- About Section-->
+    <section id="about" class="about">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-lg-6">
+              <header class="text-center mb-5">
+                <h2 class="lined text-uppercase">About us</h2>
+              </header>
+              <p class="lead">Senergy in serving you..</p>
+              <p>SGL offers innovative solutions on public, private as well as hybrid cloud. Our services enable enterprises to leverage diverse options available in the cloud and realize its full potential. We help the enterprise and IT to shift their focus from maintenance and operations to innovation, help enhance business agility and sustain competitive edge.</p> <br>
+              <p>SGL provides cloud planning and implementation solutions to help clients navigate their journey to the cloud. Synygista Group Ltd Services are based on implementation of best practices and will help minimize risk when navigating the many complexities involved in building and operating a cloud. By teaming our expert consultants with your IT leaders, we can help you stand up and integrate the optimal cloud environment to facilitate your strategic and technical business requirements.</p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul class="mb-0">
+                    <li>We believe in treating our customers with respect and faith</li>
+                    <li>We grow through creativity, invention and innovation.</li>
+                    <li>We integrate honesty, integrity and business ethics into all aspects of our business functioning</li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="mb-0">
+                    <li>Regional expansion in the field of green computing consultancy</li>
+                    <li>To gain world-wide client base </li>
+                    <li>To build good reputation in IT field and become an industry leader</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6"><img src="img/synygista.png" alt="..." class="img-fluid"></div>
+          </div>
+          <div class="row">   
+            <div class="col-lg-6"> 
+              <h5 class="text-uppercase font-weight-bold"><i class="fas fa-arrows-alt mr-2"> </i>Purpose</h5>
+              <p>To be a world class IT company providing top-of-the range information technology solutions </p>
+            </div>
+            <div class="col-lg-6"> 
+              <h5 class="text-uppercase font-weight-bold"><i class="far fa-image mr-2"> </i>Vision</h5>
+              <p>To provide quality services that exceeds the expectations of our esteemed customers.</p>
+            </div>
+            <div class="col-lg-6"> 
+              <h5 class="text-uppercase font-weight-bold"><i class="far fa-life-ring mr-2"> </i>Mission statement</h5>
+              <p>To build long term relationships with our customers and clients and provide exceptional customer services by pursuing business through innovation and advanced technology.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services Section-->
+      <section id="services" class="bg-gray">
+        <div class="container">
+          <header class="text-center mb-5">
+            <h2 class="lined text-uppercase">Services</h2>
+          </header>
+          <div class="row text-center">
+            <div class="col-lg-4">
+              <div class="bg-white mb-4 p-4">
+                <div class="icon mb-3"><i class="fas fa-desktop"></i></div>
+                <h4 class="text-uppercase font-weight-bold">Cloud Readiness Assessment</h4>
+                <p class="small text-gray">We understand that cloud readiness assessment is the first step to the cloud transformation journey that focuses on providing best counsel and options for the enterprise based on business their requirements and objectives. Assessment involves understanding the business drivers, goals, readiness state, compliance, optimization needs, and the impact of change management. As part of these services, we analyze work load, quality of service and security requirements, application usability and support, and technical platform details. </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="bg-white mb-4 p-4">
+                <div class="icon mb-3"><i class="fas fa-database"></i></div>
+                <h4 class="text-uppercase font-weight-bold">Database Management</h4>
+                <p class="small text-gray">Our Database Management services help ensure high performance and availability of business critical data assets. These offerings include design, implementation, migration, maintenance, consolidation and optimization of organizational database. Our proven expertise and a well-defined approach combined with our solution accelerators, toolkits and frameworks drive cost-effective, secure, and reliable services.</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="bg-white mb-4 p-4">
+                <div class="icon mb-3"><i class="fab fa-searchengin"></i></div>
+                <h4 class="text-uppercase font-weight-bold">Business Continuity and Disaster Recovery</h4>
+                <p class="small text-gray">Our business continuity and disaster recovery (BCP/DR) services help clients ensure business continuity and adhere to policies and domain specific regulatory measures. Some of the main areas of focus are risk assessment, strategy, architecture design, process implementation, testing and maintenance. Robust frameworks, templates, and toolkits enable organizations to assess, design, and maintain BCP/DR successfully. Consultants with diverse industry experience and technology expertise help businesses meet response time objective (RTO) and recovery point objective (RPO) efficiently. Automated processes, predictive analytics and intuitive dashboards drive data driven management, and enhance operational efficiency and system availability.</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="bg-white mb-4 p-4">
+                <div class="icon mb-3"><i class="far fa-comment-alt"></i></div>
+                <h4 class="text-uppercase font-weight-bold">Consulting</h4>
+                <p class="small text-gray">Synygista Group Ltd provides next generation training and consulting solution both to individuals and to corporate. State-of-the art management and technical training is customized for corporate clients and individual participants. We deliver solutions to corporate clients and individuals designed to meet the complex needs of today's business environment with an accurate understanding of their unique business requirements. Our dedicated Trainer/Consultants have extensive, successful corporate experience in successfully delivering effective business solutions. Other associates include a variety of technical specialists with experience in software services who provide practical, proven, and customized solutions.</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="bg-white mb-4 p-4">
+                <div class="icon mb-3"><i class="fas fa-satellite"></i></div>
+                <h4 class="text-uppercase font-weight-bold">Cloud Transformation Services</h4>
+                <p class="small text-gray">Synygista Group Ltd offers Cloud Transformation services that help analyze the existing setup, and design a consolidated and optimized roadmap to align transformation initiatives with business objectives. Our well-defined and structured approach helps identify the right cloud platform to enhance productivity, improve flexibility and security, and achieve significant cost savings.</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="bg-white mb-4 p-4">
+                <div class="icon mb-3"><i class="fas fa-pencil-ruler"></i></div>
+                <h4 class="text-uppercase font-weight-bold">Migration Services</h4>
+                <p class="small text-gray">Synygista Group Ltd helps clients to seamlessly migrate to cloud while ensuring connectivity, security, and flexibility as well as integration of existing applications. We ensure that there’s no single point of failure, we size instance as necessary, we plan for growth of your applications, we secure your data in transit and at rest and we provide adequate level of redundancy. These services enable a successful move to efficient data center environment, reduce costs and downtime, and enhance productivity.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+            <!-- Team Section-->
+            <section id="team">
+                <div class="container">
+                  <header class="text-center mb-5">
+                    <h2 class="text-uppercase lined">Our team</h2>
+                  </header>
+                  <div class="row text-center">
+                    <div class="col-lg-3 col-md-6 mb-4"><img src="img/antony.jpg" alt="Han Solo" class="img-fluid mb-4">
+                      <h4 class="font-weight-bold text-uppercase"><a href="#" class="no-anchor-style">Antony ongwang'</a></h4>
+                      <p class="small text-gray text-uppercase">Founder</p>
+                      <ul class="mb-0 list-inline mb-3">
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-instagram"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-email"><i class="fas fa-envelope"></i></a></li>
+                      </ul>
+                      <p class="small text-gray">Antony's profile</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4"><img src="img/person-2.jpg" alt="Luke skywalker" class="img-fluid mb-4">
+                      <h4 class="font-weight-bold text-uppercase"><a href="#" class="no-anchor-style">stephen Owuonda</a></h4>
+                      <p class="small text-gray text-uppercase">CTO</p>
+                      <ul class="mb-0 list-inline mb-3">
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-instagram"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-email"><i class="fas fa-envelope"></i></a></li>
+                      </ul>
+                      <p class="small text-gray">Stephen's profile</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4"><img src="img/kennedy.jpg" alt="Princess Leia" class="img-fluid mb-4">
+                      <h4 class="font-weight-bold text-uppercase"><a href="#" class="no-anchor-style">Makombe kennedy</a></h4>
+                      <p class="small text-gray text-uppercase">Team leader</p>
+                      <ul class="mb-0 list-inline mb-3">
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-instagram"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-email"><i class="fas fa-envelope"></i></a></li>
+                      </ul>
+                      <p class="small text-gray">makombe's profile</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4"><img src="img/step.jpg" alt="Jabb Hut" class="img-fluid mb-4">
+                      <h4 class="font-weight-bold text-uppercase"><a href="#" class="no-anchor-style">stephen ogolla</a></h4>
+                      <p class="small text-gray text-uppercase">Lead developer</p>
+                      <ul class="mb-0 list-inline mb-3">
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-instagram"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="social-link social-link-email"><i class="fas fa-envelope"></i></a></li>
+                      </ul>
+                      <p class="small text-gray">Stephen's profile</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+      <!-- Testimonial Section-->
+      <section id="testimonial" class="bg-gray">
+        <div class="container">
+          <header class="text-center mb-5">
+            <h2 class="lined text-uppercase">Testimonial</h2>
+          </header>
+          <div class="cf-feedback_containe">
+          <div class="cf-feedback ">
+                
+            <ul>
+                <li>
+                    <div class="cf-user-data">
+                        <img src="./img/about.jpg" alt="" />
+                        <span class="cf-user-name">Alicia Shannon</span>
+                    </div>
+                    <p>"I suspect that I was deemed to be "undesirable" by elitist organizers who want to retain the "integrity" of an exclusive-group that is either racist or otherwise, socially-exclusive.  "</p>
+                </li>
+                <li>
+                    <div class="cf-user-data">
+                        <img src="./img/person-2.jpg" alt="" />
+                        <span class="cf-user-name">Jack Wilson</span>
+                    </div>
+                    <p>"I suspect that I was deemed to be "undesirable" by elitist organizers who want to retain the "integrity" of an exclusive-group that is either racist or otherwise, socially-exclusive.  "</p>
+                </li>
+                <li>
+                    <div class="cf-user-data">
+                        <img src="./img/kennedy.jpg" alt="" />
+                        <span class="cf-user-name">Sienna Johnson</span>
+                    </div>
+                    <p>"I suspect that I was deemed to be "undesirable" by elitist organizers who want to retain the "integrity" of an exclusive-group that is either racist or otherwise, socially-exclusive.  "</p>
+                </li>
+            </ul>
+
+            <i id="cf-feedback-prev" class="cf-arrow cf-arrow-left"></i>
+            <i id="cf-feedback-next" class="cf-arrow cf-arrow-right"></i>
+        </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- Contact Section-->
+      <section id="contact">
+        <div class="container">
+          <header class="text-center mb-5">
+            <h2 class="text-uppercase lined">Contact</h2>
+          </header>
+          <div class="row">
+            <div class="col-lg-3">
+              <form action="" class="contact-form">
+                <div class="row">
+                  <div class="form-group col-lg-6">
+                    <label for="firstName">Your firstname *</label>
+                    <input id="firstName" type="text" name="firstname" placeholder="Enter your firstname" class="form-control">
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <label for="lastName">Your lastname *</label>
+                    <input id="lastName" type="text" name="lastname" placeholder="Enter your lastname" class="form-control">
+                  </div>
+                  <div class="form-group col-lg-12">
+                    <label for="email">Your email *</label>
+                    <input id="email" type="email" name="email" placeholder="Enter your email" class="form-control">
+                  </div>
+                  <div class="form-group col-lg-12">
+                    <label for="message">Your message for us *</label>
+                    <textarea id="message" name="message" placeholder="Enter your message" rows="4" class="form-control"></textarea>
+                  </div>
+                  <div class="form-group col-lg-12">
+                    <button type="submit" class="btn btn-outline-primary w-100">Send message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-lg-6">
+              <p>Synygista Group Ltd helps clients to realize the full potential of cloud and ROI on their IT expenditure, mitigate risk of upgrades and its associated costs, and help innovation.</p>
+              <p>Leave us a mesage for the above ervices or feedback to help serve you better. Lets make the world a better place together.</p>
+              <ul class="mb-0 list-inline text-center">
+                <li class="list-inline-item"><a href="#" class="social-link social-link-facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link social-link-twitter"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link social-link-google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link social-link-instagram"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link social-link-email"><i class="fas fa-envelope"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 text-center text-lg-left">
+              <p class="mb-0 text-gray">&copy; 2020 Synygista Group Limited</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- JavaScript files-->
+      <script src="./vendor/jquery/jquery.min.js"></script>
+      <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="./vendor/lightbox2/js/lightbox.min.js"></script>
+      <script src="./vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+      <script src="./js/front.js"></script>
+      <script src="./js/main.js"></script>
+      <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </body>
+  </html>
