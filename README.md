@@ -1,2 +1,2 @@
-# yolomy
+# Synigista Group
 Synigista Group
