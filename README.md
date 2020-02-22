@@ -1,2 +1,2 @@
-# Synigista Group
-Synigista Group
+# Synygista Group
+Synygista Group
