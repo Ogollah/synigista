@@ -1947,18 +1947,6 @@ body {
   .dropdown-item.disabled, .dropdown-item:disabled {
     color: #6c757d;
   }
-
-    /* feedback */
-
-    .cf-feedback_container{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 100%;
-        max-width: 1000px;
-        margin: 0 auto;
-        box-sizing: border-box;
-      }
     
       #cf-feedback {
         display: flex;
