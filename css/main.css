@@ -5,6 +5,8 @@
 * =====================
 *
 */
+
+
 body {
     overflow-x: hidden;
   }
@@ -119,7 +121,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 2;
+    z-index: 1;
   }
   
   .overlay + .content {
@@ -1912,6 +1914,12 @@ body {
       margin-right: 15px;
       margin-left: 15px;
     }
+  }
+  /*
+  * FOOTER
+  */
+  .bg-footer {
+    background: rgba(111, 205, 248, 0.93);
   }
   
   /*
