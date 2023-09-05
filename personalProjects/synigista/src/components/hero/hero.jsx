@@ -9,7 +9,7 @@ function Hero() {
       <div className="row">
         <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
           <h1>Better System Solutions For Your Business</h1>
-          <h2>Health IT | Management Systems | Reaserch </h2>
+          <h2>Health IT | Management Systems | Research </h2>
           <div className="d-flex justify-content-center justify-content-lg-start">
             <a href="#about" className="btn-get-started scrollto">Get Started</a>
             {/* <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="glightbox btn-watch-video"><i className="bi bi-play-circle"></i><span>Watch Video</span></a> */}

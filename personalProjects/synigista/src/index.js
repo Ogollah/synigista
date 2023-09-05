@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./assets/css/styles.css";
-import "./assets/css/styles.css";
 import "./assets/vendor/aos/aos.css";
 import "./assets/vendor/bootstrap/css/bootstrap.min.css";
 import "./assets/vendor/bootstrap-icons/bootstrap-icons.css";
